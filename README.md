@@ -11,7 +11,7 @@ Chat_Project/
 │   ├── requirements.txt
 │   └── .env.example
 ├── index.html          (Web frontend)
-└── QUICKSTART.md
+└── client.py           (Python CLI client)
 ```
 
 ## Tech Stack
@@ -30,7 +30,14 @@ Chat_Project/
 
 ## Quick Start
 
-See [QUICKSTART.md](QUICKSTART.md) for running the app in 2 simple steps.
+1. **Backend Setup**:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python server.py
+   ```
+
+2. **Frontend**: Open `index.html` in your browser
 ```
 
 ---
