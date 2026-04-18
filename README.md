@@ -37,4 +37,15 @@ Chat_Project/
    python server.py
    ```
 
-2. **Frontend**: Open `index.html` in your browser
+2. **Web Frontend**: Open `index.html` in your browser or run a local server:
+   ```bash
+   # Using Python's built-in server
+   python -m http.server 8000
+   # Then open http://localhost:8000 in your browser
+   ```
+
+3. **Python CLI Client** (requires backend running):
+   ```bash
+   pip install -r backend/requirements.txt
+   python client.py
+   ```
